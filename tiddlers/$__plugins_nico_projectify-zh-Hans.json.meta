@@ -1,0 +1,10 @@
+author: Hue<huetyan@pm.me>
+core-version: >=5.1.22
+dependents: 
+description: Projectify Chinese (Simplified)
+name: projectify-zh-Hans
+parent-plugin: $:/plugins/nico/projectify
+plugin-type: plugin
+title: $:/plugins/nico/projectify-zh-Hans
+type: application/json
+version: 0.14.0

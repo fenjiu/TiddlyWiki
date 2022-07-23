@@ -1,0 +1,14 @@
+author: TonGerneer
+core-version: <=5.1.13
+created: 20170519144130151
+creator: TonGerner
+description: Newline button
+list: readme license
+modified: 20210104200300131
+modifier: TonGerner
+name: Newline button
+plugin-type: plugin
+source: http://www.tongerner.nl/TW5/TW5_index.html
+title: $:/plugins/tg/newline-button
+type: application/json
+version: 0.0.10

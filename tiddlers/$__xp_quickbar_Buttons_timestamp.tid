@@ -1,0 +1,9 @@
+caption: {{$:/core/ui/Buttons/timestamp!!caption}}
+created: 20220723063232633
+description: {{$:/core/ui/Buttons/timestamp!!description}}
+modified: 20220723063232633
+tags: $:/tags/QuickBar/PageControlButtons
+title: $:/xp/quickbar/Buttons/timestamp
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/timestamp}}

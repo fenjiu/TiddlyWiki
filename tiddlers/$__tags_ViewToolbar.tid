@@ -1,0 +1,5 @@
+created: 20220723054758785
+list: $:/core/ui/Buttons/fold-bar $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/edit $:/plugins/Gk0Wk/page-toc/PageTOCButton $:/plugins/nico/projectify/ui/buttons/ToggleTodo $:/core/ui/Buttons/close $:/plugins/linonetwo/slate-write/ui/ViewToolbar/Buttons/edit-wysiwyg $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/plugins/bimlas/locator/viewtemplate/open-in-sidebar $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/plugins/linonetwo/open-in-external-app/ViewToolbarButton $:/plugins/linonetwo/zx-script/ViewToolbarButton $:/plugins/danielo515/encryptTiddler/crypt-button $:/plugins/tiddlywiki/qrcode/ViewToolbarButton $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold
+modified: 20220723055005732
+title: $:/tags/ViewToolbar
+type: text/vnd.tiddlywiki

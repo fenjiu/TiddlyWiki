@@ -1,0 +1,6 @@
+created: 20220723051432503
+modified: 20220723065206735
+title: $:/themes/tiddlywiki/vanilla/metrics/storyleft
+type: text/vnd.tiddlywiki
+
+<$text text={{$:/xp/leftopentab/metrics/storyleft}}/>

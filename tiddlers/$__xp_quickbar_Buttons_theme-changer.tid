@@ -1,0 +1,38 @@
+caption: {{$:/xp/ui/Buttons/theme-changer!!caption}}
+dependents: $:/plugins/xp/theme-changer
+description: {{$:/xp/ui/Buttons/theme-changer!!description}}
+is-dropup: yes
+modified: 20220723055806400
+tags: $:/tags/QuickBar/HoverPopupButtons $:/tags/QuickBar/PageControlButtons
+title: $:/xp/quickbar/Buttons/theme-changer
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+\define styleTiddlers()
+$:/xp/theme-changer/styles/DarkGreen
+$:/xp/theme-changer/styles/EyeCareGreen
+$:/xp/theme-changer/styles/EyeCareGreen2
+\end
+
+\define themeChanger()
+<$list filter="[[$:/palettes/SolarFlare]] [all[shadows+tiddlers]tag[$:/tags/Palette]prefix[$:/xp/theme-changer/palettes]!sort[]] [[$:/palettes/Vanilla]]">
+<$button set="$:/palette" setTo=<<currentTiddler>> class="tc-btn-invisible quickbar-buttonlist">
+<$action-deletetiddler $filter=<<styleTiddlers>>/>
+<$action-listops $tiddler={{!!css}} $tags="$:/tags/Stylesheet"/>
+<$action-deletetiddler $filter=<<qualify "$:/state/popup/theme-changer">>/>
+<$transclude field="name"/>
+<$list filter="[{$:/palette}match<currentTiddler>]">
+&nbsp;&#10003;
+</$list>
+</$button><br>
+</$list>
+\end
+
+<div class="tc-quickbar-tooltip">
+<$button tooltip="Switch custom themes" aria-label="theme changer" class="tc-btn-invisible">
+{{$:/xp/images/theme}}
+</$button>
+<div class="tc-quickbar-tooltiptext quickbar-tooltiptext-button" style="padding:18px 14px;">
+<<themeChanger>>
+</div>
+</div>

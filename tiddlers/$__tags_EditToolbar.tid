@@ -1,0 +1,5 @@
+created: 20220723050625188
+list: $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/plugins/telmiger/EditButtons/Buttons/save-open $:/core/ui/Buttons/save $:/xp/ui/Buttons/maximize-river $:/plugins/telmiger/EditButtons/Buttons/cancel-and-close $:/plugins/telmiger/EditButtons/Buttons/save-and-close
+modified: 20220723050637761
+title: $:/tags/EditToolbar
+type: text/vnd.tiddlywiki

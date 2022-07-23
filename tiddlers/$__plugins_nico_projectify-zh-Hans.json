@@ -1,0 +1,386 @@
+{
+    "tiddlers": {
+        "$:/language/projectify/EmptyInboxDescription": {
+            "title": "$:/language/projectify/EmptyInboxDescription",
+            "created": "20210112203922871",
+            "modified": "20210112205110180",
+            "text": "已完成！\n"
+        },
+        "$:/language/projectify/EmptyInboxTitle": {
+            "title": "$:/language/projectify/EmptyInboxTitle",
+            "created": "20210112203922871",
+            "modified": "20210112204532441",
+            "text": "大功告成！\n"
+        },
+        "$:/language/projectify/EmptyNextActionsDescription": {
+            "title": "$:/language/projectify/EmptyNextActionsDescription",
+            "created": "20210112203922871",
+            "modified": "20210112204856811",
+            "text": "<p>\n  每个活动项目中的第一个任务将在此显示 -- [[了解更多|$:/plugins/nico/projectify/doc/NextActions]].\n</p>\n"
+        },
+        "$:/language/projectify/EmptyProjectDescription": {
+            "title": "$:/language/projectify/EmptyProjectDescription",
+            "created": "20210112203922871",
+            "modified": "20210112210733626",
+            "text": "<p>看来你已经完成了这个项目！</p>\n"
+        },
+        "$:/language/projectify/EmptyProjectTitle": {
+            "title": "$:/language/projectify/EmptyProjectTitle",
+            "created": "20210112203922871",
+            "modified": "20210112210817571",
+            "text": "干得好！\n"
+        },
+        "$:/language/projectify/EmptyProjectsDescription": {
+            "title": "$:/language/projectify/EmptyProjectsDescription",
+            "created": "20210112203922871",
+            "modified": "20210112205248845",
+            "text": "<p>通过在项目中安排任务，让你的工作事半功倍、有条不紊 -- [[了解更多|$:/plugins/nico/projectify/doc/Projects]].</p>\n"
+        },
+        "$:/language/projectify/EmptyProjectsTitle": {
+            "title": "$:/language/projectify/EmptyProjectsTitle",
+            "created": "20210112203922871",
+            "modified": "20210112205529611",
+            "text": "保持井井有条！\n"
+        },
+        "$:/language/projectify/EmptyUpcomingDescription": {
+            "title": "$:/language/projectify/EmptyUpcomingDescription",
+            "created": "20210112203922871",
+            "modified": "20210117205436036",
+            "text": "<p>\n  所有已安排日程的任务将在此显示 -- [[了解更多|$:/plugins/nico/projectify/doc/Schedule]].\n</p>\n"
+        },
+        "$:/language/projectify/EmptyUpcomingTitle": {
+            "title": "$:/language/projectify/EmptyUpcomingTitle",
+            "created": "20210112203922871",
+            "modified": "20210112211210936",
+            "text": "你的日程表空空如也！\n"
+        },
+        "$:/language/projectify/WelcomeInboxDescription": {
+            "title": "$:/language/projectify/WelcomeInboxDescription",
+            "created": "20210112203922871",
+            "modified": "20210112204214632",
+            "text": "<p>把任务收集在收件箱里，这样你就不会忘记它们，然后迅速把它们\n  从你的脑海中抹去！</p>\n<p>你也可以通过按 <kbd>{{$:/config/shortcuts/py-quick-capture}}</kbd> 在页面内\n  随时捕获。</p>"
+        },
+        "$:/language/projectify/WelcomeInboxTitle": {
+            "title": "$:/language/projectify/WelcomeInboxTitle",
+            "created": "20210112203922871",
+            "modified": "20210112204147224",
+            "text": "在收件箱中收集任务\n"
+        },
+        "$:/language/projectify/WelcomeProjectDescription": {
+            "title": "$:/language/projectify/WelcomeProjectDescription",
+            "created": "20210112203922871",
+            "modified": "20210112210005679",
+            "text": "<p>\n  通过对项目中的待办事项进行分组，让你的工作有条不紊。  \n</p>\n"
+        },
+        "$:/language/projectify/WelcomeProjectTitle": {
+            "title": "$:/language/projectify/WelcomeProjectTitle",
+            "created": "20210112203922871",
+            "modified": "20210112210001231",
+            "text": "让我们开始吧！"
+        },
+        "$:/language/projectify/AddProject/Caption": {
+            "title": "$:/language/projectify/AddProject/Caption",
+            "text": "新增项目"
+        },
+        "$:/language/projectify/AddProject/Hint": {
+            "title": "$:/language/projectify/AddProject/Hint",
+            "text": "创建新的项目"
+        },
+        "$:/language/projectify/AddCategory/Caption": {
+            "title": "$:/language/projectify/AddCategory/Caption",
+            "text": "添加类别"
+        },
+        "$:/language/projectify/AddCategory/Hint": {
+            "title": "$:/language/projectify/AddCategory/Hint",
+            "text": "创建新的类别"
+        },
+        "$:/language/projectify/AddSubTasks/Caption": {
+            "title": "$:/language/projectify/AddSubTasks/Caption",
+            "text": "添加子任务"
+        },
+        "$:/language/projectify/AddToInbox/Hint": {
+            "title": "$:/language/projectify/AddToInbox/Hint",
+            "text": "按 <kbd>{{$:/config/shortcuts/py-quick-capture}}</kbd> 在页面内随时捕获。"
+        },
+        "$:/language/projectify/AddToInbox/Placeholder": {
+            "title": "$:/language/projectify/AddToInbox/Placeholder",
+            "text": "添加到收件箱..."
+        },
+        "$:/language/projectify/AddTodo/Caption": {
+            "title": "$:/language/projectify/AddTodo/Caption",
+            "text": "添加一个待办事项"
+        },
+        "$:/language/projectify/AddTodo/Hint": {
+            "title": "$:/language/projectify/AddTodo/Hint",
+            "text": "添加一个新的待办事项到此项目中"
+        },
+        "$:/language/projectify/AddTodoToProject/Placeholder": {
+            "title": "$:/language/projectify/AddTodoToProject/Placeholder",
+            "text": "为此任务添加描述..."
+        },
+        "$:/language/projectify/AllClear": {
+            "title": "$:/language/projectify/AllClear",
+            "text": "大功告成！"
+        },
+        "$:/language/projectify/Archive": {
+            "title": "$:/language/projectify/Archive",
+            "text": "归档"
+        },
+        "$:/language/projectify/ArchiveProject/Caption": {
+            "title": "$:/language/projectify/ArchiveProject/Caption",
+            "text": "归档项目"
+        },
+        "$:/language/projectify/ArchiveProject/Hint": {
+            "title": "$:/language/projectify/ArchiveProject/Hint",
+            "text": "从活动项目列表中删除此项目"
+        },
+        "$:/language/projectify/Cancel/Caption": {
+            "title": "$:/language/projectify/Cancel/Caption",
+            "text": "取消"
+        },
+        "$:/language/projectify/CardOptions/Hint": {
+            "title": "$:/language/projectify/CardOptions/Hint",
+            "text": "卡片选项"
+        },
+        "$:/language/projectify/Clear": {
+            "title": "$:/language/projectify/Clear",
+            "text": "清除"
+        },
+        "$:/language/projectify/Close/Caption": {
+            "title": "$:/language/projectify/Close/Caption",
+            "text": "关闭"
+        },
+        "$:/language/projectify/Completed/Caption": {
+            "title": "$:/language/projectify/Completed/Caption",
+            "text": "已完成"
+        },
+        "$:/language/projectify/ConvertIntoProject": {
+            "title": "$:/language/projectify/ConvertIntoProject",
+            "text": "转换为项目"
+        },
+        "$:/language/projectify/Category": {
+            "title": "$:/language/projectify/Category",
+            "text": "类别"
+        },
+        "$:/language/projectify/Categories": {
+            "title": "$:/language/projectify/Categories",
+            "text": "所有类别"
+        },
+        "$:/language/projectify/Dashboard": {
+            "title": "$:/language/projectify/Dashboard",
+            "text": "仪表盘"
+        },
+        "$:/language/projectify/DateFormat": {
+            "title": "$:/language/projectify/DateFormat",
+            "text": "mmmDD日 DDD"
+        },
+        "$:/language/projectify/DefaultDashboardTab": {
+            "title": "$:/language/projectify/DefaultDashboardTab",
+            "text": "仪表盘默认选项卡"
+        },
+        "$:/language/projectify/DragTodoTip": {
+            "title": "$:/language/projectify/DragTodoTip",
+            "text": "通过拖放下面的任何Tddler，可将其作为任务添加到此项目中。"
+        },
+        "$:/language/projectify/EditCategories": {
+            "title": "$:/language/projectify/EditCategories",
+            "text": "编辑类别"
+        },
+        "$:/language/projectify/FilterProjects": {
+            "title": "$:/language/projectify/FilterProjects",
+            "text": "过滤项目"
+        },
+        "$:/language/projectify/Help": {
+            "title": "$:/language/projectify/Help",
+            "text": "需要帮助？"
+        },
+        "$:/language/projectify/HelpSearch/Placeholder": {
+            "title": "$:/language/projectify/HelpSearch/Placeholder",
+            "text": "搜索..."
+        },
+        "$:/language/projectify/HideArchived/Caption": {
+            "title": "$:/language/projectify/HideArchived/Caption",
+            "text": "隐藏已归档"
+        },
+        "$:/language/projectify/HideCompleted/Caption": {
+            "title": "$:/language/projectify/HideCompleted/Caption",
+            "text": "隐藏已完成"
+        },
+        "$:/language/projectify/Inbox": {
+            "title": "$:/language/projectify/Inbox",
+            "text": "收件箱"
+        },
+        "$:/language/projectify/More": {
+            "title": "$:/language/projectify/More",
+            "text": "更多"
+        },
+        "$:/language/projectify/MoreActions/Hint": {
+            "title": "$:/language/projectify/MoreActions/Hint",
+            "text": "更多动作"
+        },
+        "$:/language/projectify/NewProject": {
+            "title": "$:/language/projectify/NewProject",
+            "text": "创建新的项目"
+        },
+        "$:/language/projectify/NewProjectCategory": {
+            "title": "$:/language/projectify/NewProjectCategory",
+            "text": "类别 (可选的)"
+        },
+        "$:/language/projectify/NewProjectDescription": {
+            "title": "$:/language/projectify/NewProjectDescription",
+            "text": "描述 (可选的)"
+        },
+        "$:/language/projectify/NewProjectTitle": {
+            "title": "$:/language/projectify/NewProjectTitle",
+            "text": "标题"
+        },
+        "$:/language/projectify/Next": {
+            "title": "$:/language/projectify/Next",
+            "text": "随后"
+        },
+        "$:/language/projectify/NextWeek": {
+            "title": "$:/language/projectify/NextWeek",
+            "text": "下周"
+        },
+        "$:/language/projectify/OpenTasks": {
+            "title": "$:/language/projectify/OpenTasks",
+            "text": "打开任务"
+        },
+        "$:/language/projectify/Options/Hint": {
+            "title": "$:/language/projectify/Options/Hint",
+            "text": "选项"
+        },
+        "$:/language/projectify/Or": {
+            "title": "$:/language/projectify/Or",
+            "text": "或"
+        },
+        "$:/language/projectify/OtherTasks": {
+            "title": "$:/language/projectify/OtherTasks",
+            "text": "其他任务"
+        },
+        "$:/language/projectify/Overdue": {
+            "title": "$:/language/projectify/Overdue",
+            "text": "逾期"
+        },
+        "$:/language/projectify/Priority/Hint": {
+            "title": "$:/language/projectify/Priority/Hint",
+            "text": "优先级"
+        },
+        "$:/language/projectify/ProjectArchived": {
+            "title": "$:/language/projectify/ProjectArchived",
+            "text": "此项目已归档。"
+        },
+        "$:/language/projectify/Projects": {
+            "title": "$:/language/projectify/Projects",
+            "text": "所有项目"
+        },
+        "$:/language/projectify/QuickAddTodo": {
+            "title": "$:/language/projectify/QuickAddTodo",
+            "text": "快速添加待办事项"
+        },
+        "$:/language/projectify/QuickCapture/Hint": {
+            "title": "$:/language/projectify/QuickCapture/Hint",
+            "text": "按 <kbd>⏎</kbd> 进行捕获。"
+        },
+        "$:/language/projectify/ReorderProjects/Hint": {
+            "title": "$:/language/projectify/ReorderProjects/Hint",
+            "text": "拖放列表中的项目以重新排序项目"
+        },
+        "$:/language/projectify/ReorderProjects/Caption": {
+            "title": "$:/language/projectify/ReorderProjects/Caption",
+            "text": "重新排序项目"
+        },
+        "$:/language/projectify/RestoreProject": {
+            "title": "$:/language/projectify/RestoreProject",
+            "text": "恢复项目"
+        },
+        "$:/language/projectify/Save/Caption": {
+            "title": "$:/language/projectify/Save/Caption",
+            "text": "保存"
+        },
+        "$:/language/projectify/Schedule/Caption": {
+            "title": "$:/language/projectify/Schedule/Caption",
+            "text": "日程安排"
+        },
+        "$:/language/projectify/Scheduled": {
+            "title": "$:/language/projectify/Scheduled",
+            "text": "已安排"
+        },
+        "$:/language/projectify/SetCategory/Caption": {
+            "title": "$:/language/projectify/SetCategory/Caption",
+            "text": "设置类别"
+        },
+        "$:/language/projectify/SetCategory/Hint": {
+            "title": "$:/language/projectify/SetCategory/Hint",
+            "text": "为该项目选择一个类别"
+        },
+        "$:/language/projectify/ShowArchived/Caption": {
+            "title": "$:/language/projectify/ShowArchived/Caption",
+            "text": "显示已归档事项"
+        },
+        "$:/language/projectify/ShowCompletedTodosByDefault": {
+            "title": "$:/language/projectify/ShowCompletedTodosByDefault",
+            "text": "始终显示已完成的待办事项"
+        },
+        "$:/language/projectify/ShowWelcomeMessages": {
+            "title": "$:/language/projectify/ShowWelcomeMessages",
+            "text": "显示欢迎消息"
+        },
+        "$:/language/projectify/Tip": {
+            "title": "$:/language/projectify/Tip",
+            "text": "提示"
+        },
+        "$:/language/projectify/Today": {
+            "title": "$:/language/projectify/Today",
+            "text": "今天"
+        },
+        "$:/language/projectify/TodayAndOverdue": {
+            "title": "$:/language/projectify/TodayAndOverdue",
+            "text": "今天及逾期"
+        },
+        "$:/language/projectify/TodaysTodos": {
+            "title": "$:/language/projectify/TodaysTodos",
+            "text": "我的一天"
+        },
+        "$:/language/projectify/TodoActions/Hint": {
+            "title": "$:/language/projectify/TodoActions/Hint",
+            "text": "动作"
+        },
+        "$:/language/projectify/Todos": {
+            "title": "$:/language/projectify/Todos",
+            "text": "待办事项"
+        },
+        "$:/language/projectify/Tomorrow": {
+            "title": "$:/language/projectify/Tomorrow",
+            "text": "明天"
+        },
+        "$:/language/projectify/Upcoming": {
+            "title": "$:/language/projectify/Upcoming",
+            "text": "即将到来"
+        },
+        "$:/language/projectify/ViewAsCards": {
+            "title": "$:/language/projectify/ViewAsCards",
+            "text": "以卡片形式查看"
+        },
+        "$:/language/projectify/ViewAsList": {
+            "title": "$:/language/projectify/ViewAsList",
+            "text": "以列表形式查看"
+        },
+        "$:/language/projectify/ViewProjectsAs": {
+            "title": "$:/language/projectify/ViewProjectsAs",
+            "text": "更改项目查看形式"
+        },
+        "$:/language/projectify/Yesterday": {
+            "title": "$:/language/projectify/Yesterday",
+            "text": "昨天"
+        },
+        "$:/language/projectify/cards": {
+            "title": "$:/language/projectify/cards",
+            "text": "卡片"
+        },
+        "$:/language/projectify/list": {
+            "title": "$:/language/projectify/list",
+            "text": "列表"
+        }
+    }
+}

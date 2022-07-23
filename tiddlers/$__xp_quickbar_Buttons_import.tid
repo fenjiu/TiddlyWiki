@@ -1,0 +1,9 @@
+caption: {{$:/core/ui/Buttons/import!!caption}}
+created: 20220723063211990
+description: {{$:/core/ui/Buttons/import!!description}}
+modified: 20220723063211990
+tags: $:/tags/QuickBar/PageControlButtons
+title: $:/xp/quickbar/Buttons/import
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/import}}

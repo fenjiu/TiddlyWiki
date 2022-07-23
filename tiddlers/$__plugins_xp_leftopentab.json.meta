@@ -1,0 +1,11 @@
+author: kl
+created: 20210218055056916
+dependents: $:/plugins/sq/Stories $:/plugins/felixhayashi/tiddlymap
+description: A button to put the open tab to the left
+list: readme
+modified: 20220605135117938
+name: LeftOpenTab
+plugin-type: plugin
+title: $:/plugins/xp/leftopentab
+type: application/json
+version: 0.2.0

@@ -1,0 +1,9 @@
+caption: {{$:/core/ui/Buttons/save-wiki!!caption}}
+created: 20220723062929245
+description: {{$:/core/ui/Buttons/save-wiki!!description}}
+modified: 20220723062929245
+tags: $:/tags/QuickBar/PageControlButtons
+title: $:/xp/quickbar/Buttons/save-wiki
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/save-wiki}}

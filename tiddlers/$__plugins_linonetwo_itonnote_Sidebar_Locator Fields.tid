@@ -1,0 +1,11 @@
+caption: Fields
+created: 20220723045343357
+creator: LinOnetwo
+modified: 20220723045345109
+tags: 
+title: $:/plugins/linonetwo/itonnote/Sidebar/Locator Fields
+type: text/vnd.tiddlywiki
+
+<$vars searchTiddler=" ">
+  <<locator-fields>>
+</$vars>

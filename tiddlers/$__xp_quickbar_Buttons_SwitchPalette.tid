@@ -1,0 +1,9 @@
+caption: {{$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette!!caption}}
+created: 20220723063140265
+description: {{$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette!!description}}
+modified: 20220723063140265
+tags: $:/tags/QuickBar/PageControlButtons
+title: $:/xp/quickbar/Buttons/SwitchPalette
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette}}

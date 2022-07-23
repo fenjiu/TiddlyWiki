@@ -1,0 +1,6 @@
+created: 20220723051432504
+modified: 20220723065206736
+title: $:/themes/tiddlywiki/vanilla/metrics/storyright
+type: text/vnd.tiddlywiki
+
+<$text text={{$:/xp/leftopentab/metrics/storyright}}/>
